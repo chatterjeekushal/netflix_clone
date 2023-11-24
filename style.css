@@ -1,5 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/netflix-font');
 
+/* Large devices (laptops/desktops, 992px and up) */
+
 
 * {
     margin: 0px;
@@ -58,10 +60,10 @@ nav span img {
 .nav_btn button:nth-child(1) {
     border: none;
     font-size: 1.2rem;
-    background-color: rgba(0, 0, 0, 0.229);
+    background-color: rgba(0, 0, 0, 0.744);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(189, 189, 189);
-    width: 12vw;
+    width: 13vw;
     font-weight:200;
     border-radius: 5px;
     padding:0.3rem;
@@ -84,6 +86,201 @@ nav span img {
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+
+/* =================================================================================================================================================================================================================================================================================================================== */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    nav span img {
+        width:30vw;
+        filter: brightness(200%);
+        margin-left: 2REM;
+        margin-top: 2rem;
+    }
+
+
+
+    .nav_btn {
+        display: flex;
+    
+        width:50%;
+        justify-content:center;
+        align-items:center;
+        cursor: pointer;
+        z-index: 5;
+        
+        
+margin-top: 1.5rem;
+    }
+
+
+
+    .nav_btn button:nth-child(1) {
+        border: none;
+        font-size:0rem;
+        background-color: rgba(0, 0, 0, 0.229);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(189, 189, 189);
+        width: 30%;
+        font-weight:200;
+        border-radius: 5px;
+        padding:0.5rem;
+        display: flex;
+        margin-right: 0.5rem;
+        
+    }
+
+
+    .nav_btn button:nth-child(2) {
+
+        border: none;
+        font-size:0.9rem;
+        background-color: rgb(207, 4, 4);
+        color: rgb(255, 255, 255);
+    
+        width:auto;
+        padding: 0.7rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .main {
+        background: url(./img/netflixbackground.jpg);
+    
+        height: 85vh;
+        width: 100%;
+    
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+    border-bottom: 7px solid #454545;
+    }
+    
+    .main .box {
+    
+        opacity: 0.67;
+        height: 85vh;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+    }
+
+
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen  and (min-width: 600px) and (max-width: 938px) {
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+    nav span img{
+        width:16vw;
+    }
+
+.nav_btn{
+    
+
+    display: flex;
+    
+    width:50%;
+    justify-content:center;
+    align-items:center;
+    cursor: pointer;
+    z-index: 5;
+margin-top: 1.5rem;
+
+}
+
+
+
+
+.nav_btn button:nth-child(1) {
+    border: none;
+    font-size:1rem;
+    background-color: rgba(0, 0, 0, 0.229);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(189, 189, 189);
+    max-width: 20vw;
+    font-weight:200;
+    border-radius: 5px;
+    padding:0.3rem;
+    display: flex;
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.nav_btn button:nth-child(2) {
+
+    border: none;
+    font-size:0.9rem;
+    background-color: rgb(207, 4, 4);
+    color: rgb(255, 255, 255);
+
+    width:auto;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main {
+    background: url(./img/netflixbackground.jpg);
+
+    height: 85vh;
+    width: 100%;
+
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+border-bottom: 7px solid #454545;
+}
+
+.main .box {
+
+    opacity: 0.67;
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+
+
+}
+
 
 
 /* ============================================================================================================================================================================================================== */
@@ -187,6 +384,193 @@ nav span img {
 .hero_contact button:hover {
     background-color: rgb(186, 4, 4);
 }
+
+
+/* ============================================================================================================================================================================================================= */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+    .hero span:nth-child(1) {
+        font-size: 2.1rem;
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    padding: 0px 1.5rem;
+    line-height: 2.8rem;
+    
+    }
+
+    .hero span:nth-child(2) {
+
+        font-size: 2.1rem;
+    
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        padding: 0px 1.5rem;
+    }
+
+
+    .hero span:nth-child(3) {
+
+        font-size: 1.3rem;
+        font-family: 'Netflix Font', sans-serif;
+        margin-top: 1.6rem;
+    }
+    
+
+
+    .hero span:nth-child(4) {
+
+        font-size: 1.3rem;
+        font-family: 'Netflix Font', sans-serif;
+        margin-top: 2rem;
+        padding: 0px 2.2rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .hero_contact {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+        width:100%;
+    }
+  
+
+    .hero_contact input {
+        padding-left: 2rem;
+        min-width:60vw;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.626);
+        height:0.5vh;
+        border-radius: 5px;
+        border: 1px solid red;
+        caret-color:white;
+        color:white;
+        
+    }
+
+
+
+    .hero_contact button {
+
+        min-width: 50vw;
+        border: none;
+        font-size: 1rem;
+        background-color: red;
+        color: white;
+        height: 7vh;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+
+
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen  and (min-width: 600px) and (max-width: 938px) {
+
+
+    .hero span:nth-child(1) {
+        font-size: 2.5rem;
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    padding: 0px 1.5rem;
+    line-height: 4rem;
+    }
+
+    .hero span:nth-child(2) {
+
+        font-size: 2.1rem;
+    
+        font-family: 'Netflix Font', sans-serif;
+        font-weight: bolder;
+        padding: 0px 1.5rem;
+    }
+
+
+    .hero span:nth-child(3) {
+
+        font-size: 1.3rem;
+        font-family: 'Netflix Font', sans-serif;
+        margin-top: 1.6rem;
+    }
+    
+
+
+    .hero span:nth-child(4) {
+
+        font-size: 1.3rem;
+        font-family: 'Netflix Font', sans-serif;
+        margin-top: 2rem;
+        padding: 0px 2.2rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+
+    .hero_contact button {
+
+        min-width: 30vw;
+        border: none;
+        font-size: 1rem;
+        background-color: red;
+        color: white;
+        height: 7vh;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 1rem;
+        margin-right: 0.3rem;
+    }
+
+
+    .hero_contact input {
+        padding-left: 1rem;
+        min-width:60vw;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.626);
+        height:0.5vh;
+        border-radius: 5px;
+        border: 1px solid red;
+        caret-color:white;
+        color:white;
+        margin-top: 1.2rem;
+        margin-left: 1rem;
+    }
+
+
+    .hero_contact {
+
+
+        display: flex;
+        
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 1.5rem;
+        width:100%;
+    }
+
+
+
+}
+
+
+
+
 
 
 
@@ -480,4 +864,5 @@ footer>p{
     font-size: 0.8rem;
     cursor: pointer;
 }
+
 
